@@ -1,0 +1,12 @@
+@import 'reset';
+@import 'header';
+
+@font-face {
+    font-family: 'defaultFont';
+    src: url(../fonts/font/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: defaultFont;
+}
+
