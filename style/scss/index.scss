@@ -1,12 +1,10 @@
 @import 'reset';
 @import 'header';
-
-@font-face {
-    font-family: 'defaultFont';
-    src: url(../fonts/font/Raleway-VariableFont_wght.ttf);
-}
+@import 'banner';
+@import 'our_services';
 
 body {
-    font-family: defaultFont;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 

@@ -2,6 +2,10 @@
 
 
 #header {
+    top: 0;
+    position: sticky;
+    z-index: 10;
+    background: #fff;
     display: flex;
     justify-content: space-evenly;
     div {
@@ -11,16 +15,20 @@
     }
 
     ul {
+        display: flex;
         list-style-type: none;
         padding: 0;
         margin: 0;
         li {
-            padding: 31px 11px;
+            display: inline-block;
             &:hover {
                 background-color: $background-color-navHover;
             }
             a {
-                color: #000;
+                display: inline-block;
+                padding: 0 11px;
+                line-height: 81px;
+                color: $text-color-header;
                 text-decoration: none;
             }
         }

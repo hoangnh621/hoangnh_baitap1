@@ -1,0 +1,87 @@
+@import 'color';
+
+#banner {
+    position: relative;
+    height: 812px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    background-image: url(../img/imgBanner.png);
+    background-size: cover;
+    background-position: center;
+
+    @font-face {
+        font-family: arial_bold;
+        src: url(../fonts/font_arial/Arial-BoldMT.otf);
+        font-weight: bold;
+    }
+
+    div {
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 45px;
+            margin: 160px 0 0;
+        }
+        h4 {
+            font-size: 18px;
+            margin: 27px 0 50px 0;
+        }
+        button {
+            cursor: pointer;
+            color: #fff;
+            padding: 8px 10px;
+            font-size: 13px;
+            margin-bottom: 157px;
+
+            &:nth-child(1) {
+                margin-right: 14px;
+                border: 1px solid #fff;
+                background: transparent;
+                &:hover {
+                    background: #fff;
+                    color: black;
+                }
+            }
+            &:nth-child(2) {
+                border-style: none;
+                background: $background-color-buttonBanner;
+                border-color: $background-color-buttonBanner;
+            }
+        }
+
+        a {
+            display: inline-block;
+            height:13px;
+            width:13px;
+            border-radius: 50%;
+            margin-right: 7px;
+            background: #fff;
+            cursor: pointer;
+            &:nth-child(2) {
+                background: $background-color-buttonBanner;
+            }
+        }
+
+    }
+    .switchBanners {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+        width: 45px;
+        border: none;
+        background: $background-color-buttonSwitch;
+        cursor: pointer;
+        top: 50%;
+        position: absolute;
+        opacity: 0.7;
+        &:nth-child(5) {
+            left: 0
+        }
+        &:nth-child(6) {
+            right: 0
+        }
+    }
+}
