@@ -1,0 +1,25 @@
+@import 'color';
+@import 'mixin';
+
+#teamMembers {
+    @include layout;
+    padding: 89px 231px 89px 220px;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        .itemMember {
+            h3 {
+                font-size: 13px;
+                line-height: 10px;
+                margin: 24px 0 22px 0;
+            }
+            p {
+                margin: 0;
+                font-size: 14px;
+                letter-spacing: 2px;
+                width: 205px;
+                color: $text-color-ourServices;
+            }
+        }
+    }
+}

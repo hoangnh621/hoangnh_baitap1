@@ -8,7 +8,7 @@
     align-items: center;
     color: #fff;
     flex-direction: column;
-    background-image: url(../img/imgBanner.png);
+    background-image: url(../img/imgBanner1.png);
     background-size: cover;
     background-position: center;
 
@@ -21,18 +21,21 @@
     div {
         h1 {
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 45px;
+            font-size: 60px;
+            line-height: 45px;
             margin: 160px 0 0;
         }
         h4 {
-            font-size: 18px;
+            font-size: 20px;
+            line-height: 20px;
             margin: 27px 0 50px 0;
         }
         button {
             cursor: pointer;
             color: #fff;
             padding: 8px 10px;
-            font-size: 13px;
+            font-size: 12px;
+            line-height: 10px;
             margin-bottom: 157px;
 
             &:nth-child(1) {

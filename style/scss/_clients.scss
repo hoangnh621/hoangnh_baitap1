@@ -1,0 +1,74 @@
+@import 'color';
+
+#clients {
+    background-image: url(../img/yellowBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .upClients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(../img/pineBackground.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        img {
+            margin-top: 88px;
+            margin-bottom: 28px;
+        }
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h2 {
+                color: #fff;
+                font-size: 17px;
+                line-height: 14px;
+                font-weight: 500;
+                margin: 0;
+                letter-spacing: 2px
+            }
+            span {
+                display: inline-block;
+                height: 4px;
+                width: 43px;
+                margin-top: 12px;
+                margin-bottom: 48px;
+                background-color: #fff;
+            }
+        }
+        p {
+            margin:0;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 2px;
+            padding: 0 420px;
+            text-align: center;
+        }
+        i {
+            color: #fff;
+            font-size: 15px;
+            margin-top: 19px;
+            margin-bottom: 190px;
+        }
+    }
+    .downClients {
+        padding: 30px 233px 30px 220px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        i {
+            font-size: 17px;
+        }
+        button {
+            cursor: pointer;
+            padding: 12px 33px;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 10px;
+            border: 1px solid #000;
+            background-color: #fff;
+        }
+    }
+}

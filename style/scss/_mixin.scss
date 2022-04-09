@@ -1,5 +1,5 @@
 @mixin layout {
-    padding: 89px 106px;
+    padding: 89px 230px 89px 220px;
    
     .title {
             display: flex;
@@ -8,6 +8,7 @@
             flex-direction: column;
             h2 {
                 font-size: 17px;
+                line-height: 14px;
                 font-weight: 500;
                 margin: 0;
                 letter-spacing: 2px

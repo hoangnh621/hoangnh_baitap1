@@ -20,14 +20,15 @@
         padding: 0;
         margin: 0;
         li {
-            display: inline-block;
             &:hover {
                 background-color: $background-color-navHover;
             }
             a {
+
                 display: inline-block;
-                padding: 0 11px;
                 line-height: 81px;
+                padding: 0 11px;
+                font-size: 14px;
                 color: $text-color-header;
                 text-decoration: none;
             }

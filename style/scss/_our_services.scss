@@ -4,5 +4,34 @@
 
 #ourServices {
     @include layout;
-    background: $background-color-ourServices
+    background: $background-color-ourServices;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        .itemOurServices {
+            width: 301px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #fff;
+            img {
+                margin: 50px 0 32px 0;
+            }
+            h3 {
+                font-size: 15px;
+                line-height: 12px;
+                margin-top: 0;
+                margin-bottom: 35px;
+            }
+            p {
+                font-size: 14px;
+                text-align: center;
+                letter-spacing: 1px;
+                color: $text-color-ourServices;
+                margin-top:0;
+                margin-bottom: 48px;
+                padding: 0 37px 0 37px;
+            }
+        }
+    }
 }
