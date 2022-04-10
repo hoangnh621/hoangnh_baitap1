@@ -1138,7 +1138,7 @@ template {
 }
 
 #connectUs .wrapContent .content div h3 {
-  color: #ccc;
+  color: #dedede;
   font-size: 14px;
   line-height: 12px;
   font-weight: 500;
@@ -1146,10 +1146,78 @@ template {
 }
 
 #connectUs .wrapContent .content div p {
-  color: #ccc;
+  color: #dedede;
   font-size: 14px;
   line-height: 12px;
   margin: 0;
+}
+
+#footer {
+  color: #dedede;
+  background: #111111;
+  padding: 41px 100px 41px 221px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .contactFooter h3 {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#footer .contactFooter h3:first-child {
+  margin: 0 0 19px 0;
+}
+
+#footer .contactFooter h3:nth-child(2n) {
+  margin: 0;
+}
+
+#footer .contactFooter p {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 6px 0 16px 0;
+}
+
+#footer .contactFooter p:nth-child(6) {
+  margin-bottom: 6px;
+}
+
+#footer .contactFooter p:nth-child(7) {
+  margin: 0;
+}
+
+#footer .contactFooter p img {
+  margin-right: 8px;
+}
+
+#footer .linkFooter h3 {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 0 19px 0;
+}
+
+#footer .linkFooter .wrapLinkFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .linkFooter .wrapLinkFooter div {
+  margin-right: 58px;
+}
+
+#footer .linkFooter .wrapLinkFooter div p {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#footer .linkFooter .wrapLinkFooter div p img {
+  margin-right: 6px;
 }
 
 body {
