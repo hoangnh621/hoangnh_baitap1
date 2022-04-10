@@ -45,6 +45,10 @@
                     width: 156px;
                     margin: 0;
                     margin-left: 12px;
+                    color: $text-color-ourServices;
+                    &:hover {
+                        color: #000;
+                    }
                 }
             }
         }

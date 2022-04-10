@@ -1,0 +1,60 @@
+@import 'color';
+@import 'mixin';
+
+#contactUs {
+    @include layout;
+    .content {
+        display: flex;
+        .contactForm {
+            display: flex;
+            flex-direction: column;
+            flex: 6;
+            font-size: 12px;
+            line-height: 10px;
+            input {
+                padding: 12px 16px;
+                border-radius: 0;
+                margin-bottom: 21px;
+                border-style: none;
+                border:1px solid $border-color-contactUs;
+            }
+            textarea {
+                margin-bottom: 32px;
+                padding: 15px 16px;
+                border-radius: 0;
+                resize: none;
+                border:1px solid $border-color-contactUs;
+
+            }
+            button {
+                display: inline-block;
+                background: $background-color-buttonContact;
+                padding: 15px 32px;
+                border: none;
+                border-style: none;
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 11px;
+                cursor: pointer;
+            }
+        }
+        .contactInformation {
+            padding-left: 25px;
+            display: flex;
+            flex-direction: column;
+            flex: 4;
+            h3 {
+                font-size: 14px;
+                line-height: 12px;
+                margin: 0;
+            }
+            p {
+                letter-spacing: 2px;
+                margin: 10px 0 21px 0;
+                font-size: 14px;
+                line-height: 13px;
+                color: $text-color-ourServices;
+            }
+        }
+    }
+}

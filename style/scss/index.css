@@ -915,6 +915,241 @@ template {
   width: 156px;
   margin: 0;
   margin-left: 12px;
+  color: #818181;
+}
+
+#news .content .rightContent div p:hover {
+  color: #000;
+}
+
+#contactUs {
+  padding: 89px 230px 89px 220px;
+}
+
+#contactUs .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contactUs .title h2 {
+  font-size: 17px;
+  line-height: 14px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+#contactUs .title span {
+  display: inline-block;
+  height: 4px;
+  width: 43px;
+  margin-top: 12px;
+  margin-bottom: 59px;
+  background-color: #000;
+}
+
+#contactUs .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contactUs .content .contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+  font-size: 12px;
+  line-height: 10px;
+}
+
+#contactUs .content .contactForm input {
+  padding: 12px 16px;
+  border-radius: 0;
+  margin-bottom: 21px;
+  border-style: none;
+  border: 1px solid #d3d3d3;
+}
+
+#contactUs .content .contactForm textarea {
+  margin-bottom: 32px;
+  padding: 15px 16px;
+  border-radius: 0;
+  resize: none;
+  border: 1px solid #d3d3d3;
+}
+
+#contactUs .content .contactForm button {
+  display: inline-block;
+  background: #f9ce06;
+  padding: 15px 32px;
+  border: none;
+  border-style: none;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 11px;
+  cursor: pointer;
+}
+
+#contactUs .content .contactInformation {
+  padding-left: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+#contactUs .content .contactInformation h3 {
+  font-size: 14px;
+  line-height: 12px;
+  margin: 0;
+}
+
+#contactUs .content .contactInformation p {
+  letter-spacing: 2px;
+  margin: 10px 0 21px 0;
+  font-size: 14px;
+  line-height: 13px;
+  color: #818181;
+}
+
+#connectUs {
+  position: relative;
+}
+
+#connectUs #imgConnectUs {
+  width: 100%;
+}
+
+#connectUs .wrapTitle {
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 87px;
+  padding: 89px 230px 89px 220px;
+  padding: 0;
+}
+
+#connectUs .wrapTitle .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#connectUs .wrapTitle .title h2 {
+  font-size: 17px;
+  line-height: 14px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+#connectUs .wrapTitle .title span {
+  display: inline-block;
+  height: 4px;
+  width: 43px;
+  margin-top: 12px;
+  margin-bottom: 59px;
+  background-color: #000;
+}
+
+#connectUs .wrapTitle .title {
+  color: #fff;
+}
+
+#connectUs .wrapTitle .title span {
+  background-color: #fff;
+}
+
+#connectUs .wrapContent {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#connectUs .wrapContent .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+#connectUs .wrapContent .content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#connectUs .wrapContent .content div img {
+  height: 57px;
+  width: 57px;
+}
+
+#connectUs .wrapContent .content div h3 {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 500;
+  margin: 29px 0 17px 0;
+}
+
+#connectUs .wrapContent .content div p {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 12px;
+  margin: 0;
 }
 
 body {
