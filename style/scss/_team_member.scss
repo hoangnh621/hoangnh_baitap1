@@ -23,3 +23,45 @@
         }
     }
 }
+@media screen and(max-width: 640px) {
+    #teamMembers {
+        padding: 126px 34px 120px;
+        .title {
+            h2 {
+                font-size: 36px;
+                line-height:27px;
+            }
+            span {
+                width: 89px;
+                margin-bottom: 66px;
+            }
+        }
+        .content {
+            flex-wrap: wrap;
+            justify-content: none;
+            .itemMember {
+                width: calc(50% - 12.5px);
+                h3 {
+                    font-size: 28px;
+                    line-height: 20px;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                p {
+                    width: calc(100% - 15px);
+                    margin-bottom: 52px;
+                    font-size: 28px;
+                }
+                &:nth-child(n+2) {
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+
+        }
+    }
+}

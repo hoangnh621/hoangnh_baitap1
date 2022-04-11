@@ -58,3 +58,46 @@
         }
     }
 }
+@media screen and (max-width: 640px){
+    #contactUs  {
+        padding: 126px 32px 100px;
+
+        .title {
+            h2 {
+                font-size: 36px;
+                line-height:27px;
+            }
+            span {
+                width: 89px;
+                margin-bottom: 66px;
+            }
+        }
+        .content {
+            flex-direction: column;
+            .contactForm {
+                margin-bottom: 87px;
+                font-size: 24px;
+                line-height: 18px;
+                padding: 25px 18px 21px;
+                div {
+                    button {
+                        padding: 29px 51px 26px;
+                        font-size: 26px;
+                        line-height: 21px;
+                    }
+                }
+            }
+            .contactInformation {
+                h3 {
+                    font-size: 28px;
+                    line-height: 22px;
+                    margin: 30px 0 21px;
+                }
+                p {
+                    font-size: 28px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}

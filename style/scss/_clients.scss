@@ -59,6 +59,7 @@
         justify-content: space-between;
         align-items: center;
         i {
+            color: $text-color-ourClients;
             font-size: 17px;
         }
         button {
@@ -68,7 +69,56 @@
             font-weight: 600;
             line-height: 10px;
             border: 1px solid #000;
-            background-color: #fff;
+            background-color: $background-color-buttonContact;
+        }
+    }
+}
+
+@media screen and (max-width: 640px){
+    #clients {
+        .upClients {
+            background-image: url(../img/bgPineMobile1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            img {
+                height: 45px;
+                width: 49px;
+                margin-bottom: 45px;
+            }
+            p {
+                padding: 0 88px;
+                font-size: 28px;
+            }
+            i {
+                font-size: 28px;
+                margin-top: 76px;
+                margin-bottom: 112px;
+            }
+            .title {
+                h2 {
+                    font-size: 36px;
+                    line-height:27px;
+                }
+                span {
+                    width: 89px;
+                    margin-bottom: 66px;
+                }
+            }
+        }
+        .downClients {
+            padding: 60px 71px 60px 75px;
+            flex-direction: column;
+            i {
+                margin-bottom: 57px;
+                font-size: 34px;
+                line-height: 43px;
+                text-align: center;
+            }
+            button {
+                padding: 27px 65px;
+                font-size: 12px;
+                line-height: 20px;
+            }
         }
     }
 }

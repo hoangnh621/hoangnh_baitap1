@@ -1,7 +1,7 @@
 @import 'color';
 @import 'mixin';
 
-#ourWords {
+#ourWorks {
     @include layout;
     .content {
         display: flex;
@@ -26,6 +26,32 @@
             line-height: 10px;
             border: 1px solid #000;
             background-color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #ourWorks {
+        padding: 126px 34px 95px;
+        .title {
+            h2 {
+                font-size: 36px;
+                line-height:27px;
+            }
+            span {
+                width: 89px;
+                margin-bottom: 66px;
+            }
+        }
+        .content {
+            img {
+                height: auto;
+                width: calc(50% - 17px);
+                margin-bottom: 29px;
+            }
+        }
+        .owViewMore {
+            margin-top: 53px;
         }
     }
 }

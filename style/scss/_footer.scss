@@ -32,6 +32,9 @@
                 margin-right: 8px;
             }
         }
+        hr {
+            display: none;
+        }
     }
     .linkFooter {
         h3 {
@@ -48,6 +51,75 @@
                     line-height: 16px;
                     img {
                         margin-right: 6px;
+                    }
+                }
+            }
+        }
+        .mobileFooter {
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 640px){
+    #footer {
+        padding: 0;
+        flex-direction: column;
+        .contactFooter {
+            padding: 62px 88px 0 52px;
+            h3 {
+                font-size: 28px;
+                line-height: 33px;
+                &:first-child {
+                    margin: 0 0 33px;
+                }
+            }
+            p {
+                display: flex;
+                align-items: center;
+                font-size: 28px;
+                line-height: 31px;
+                margin: 6px 0 27px 0;
+                img {
+                    height: 27px;
+                    width: 27px;
+                    margin-right: 17px;
+                }
+                &:last-of-type {
+                    margin-bottom: 46px;
+                }
+            }
+            hr {
+                display: block
+            }
+        }
+        .linkFooter {
+            padding: 46px 36px 0 52px;
+            h3 {
+                font-size: 28px;
+                line-height: 33px;
+                &:first-child {
+                    margin: 0 0 33px;
+                }
+            }
+            .wrapLinkFooter {
+                display: none;
+            }
+            .mobileFooter {
+                display: flex;
+                justify-content: space-between;
+                div {
+                    p {
+                        display: flex;
+                        align-items: center;
+                        font-size: 22px;
+                        line-height: 31px;
+                        margin: 6px 0 27px 0;
+                        img {
+                            height: 19px;
+                            width: 19px;
+                            margin-right: 17px;
+                        }
+        
                     }
                 }
             }

@@ -53,4 +53,58 @@
             }
         }
     }
+    .mobileContent {
+        display: none;
+    }
+    .viewMoreWorks {
+        display: none;
+    }
+}
+@media screen and (max-width: 640px){
+    #news {
+        padding: 126px 32px 110px;
+        .title {
+            h2 {
+                font-size: 36px;
+                line-height:27px;
+            }
+            span {
+                width: 89px;
+                margin-bottom: 66px;
+            }
+        }
+        .content {
+            display: none;
+        }
+        .mobileContent {
+            display: block;
+            h3 {
+                font-size: 28px;
+                line-height: 20px;
+                margin: 32px 0 32px;
+            }
+            p {
+                font-size: 28px;
+                margin: 0 0 75px;
+                color: $text-color-ourServices;
+            }
+        }
+        .viewMoreWorks {
+            display: block;
+            padding: 0 102px 0 105px;
+            button {
+                font-size: 12px;
+                line-height: 20px;
+                font-weight: 600;
+                width: 100%;
+                cursor: pointer;
+                padding: 27px 87px;
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #000;
+            }
+            
+        }
+
+    }
 }

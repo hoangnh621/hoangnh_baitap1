@@ -35,3 +35,42 @@
         }
     }
 }
+@media screen and (max-width: 640px) {
+    #ourServices {
+        padding: 126px 66px 130px;
+        .title {
+            h2 {
+                font-size: 36px;
+                line-height:27px;
+            }
+            span {
+                width: 89px;
+                margin-bottom: 66px;
+            }
+        }
+        .content {
+            flex-direction: column;
+            .itemOurServices {
+                width: 100%;
+                margin-bottom: 66px;
+                img {
+                    height: 53px;
+                    width: 53px;
+                    margin: 66px 0 42px 0;
+                }
+                h3 {
+                    margin: 0;
+                    font-size: 28px;
+                    line-height: 21px;
+                }
+                p {
+                    margin: 57px 0 64px 0;
+                    font-size: 28px;
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

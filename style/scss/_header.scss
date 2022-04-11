@@ -8,10 +8,16 @@
     background: #fff;
     display: flex;
     justify-content: space-evenly;
-    div {
+    .menu {
+        display: none;
+    }
+    .screenLogo {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .mobileLogo {
+        display: none;
     }
 
     ul {
@@ -32,6 +38,28 @@
                 color: $text-color-header;
                 text-decoration: none;
             }
+        }
+    }
+}
+@media screen and (max-width: 640px) {
+    #header {
+        padding: 30px 34px 30px 26px;
+        justify-content: space-between;
+        .screenLogo {
+            display: none;
+        }
+        .mobileLogo {
+            display: inline-block;
+        }
+        ul {
+            display: none;
+        }
+        .menu {
+            display: block;
+            cursor: pointer;
+            border: none;
+            background: #fff;
+            padding: 0;
         }
     }
 }
