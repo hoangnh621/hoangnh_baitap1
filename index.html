@@ -10,27 +10,40 @@
 <body>
     <div id="header">
         <div class="screenLogo">
-            <a href="#">
+            <a href="#banner">
                 <img src="./style/img/LogoCodeShore.png" 
                 alt="Logo Code Shore">
             </a>
         </div>
         <div class="mobileLogo">
-            <a href="#">
+            <a href="#banner">
                 <img src="./style/img/logoMobile.png" 
                 alt="Logo Code Shore">
             </a>
         </div>
-        <ul>
-            <li><a href="#banner">HOME</a></li>
-            <li><a href="#ourServices">ABOUT</a></li>
-            <li><a href="#ourWords">SERVICES</a></li>
-            <li><a href="#clients">WORK</a></li>
-            <li><a href="#teamMembers">TEAM PRICING</a></li>
+        <ul class="screenNav">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#banner">ABOUT</a></li>
+            <li><a href="#ourServices">SERVICES</a></li>
+            <li><a href="#ourWorks">WORK</a></li>
+            <li><a href="#teamMembers">TEAM</a></li>
+            <li><a href="#teamMembers">PRICING</a></li>
             <li><a href="#contactUs">CONTACT</a></li>
             <li><a href="#footer">BLOG</a></li>
         </ul>
-        <button class="menu"><img src="./style/img/btnMenu.png" alt=""></button>
+        <button class="btnShowMenu" onclick="toggleMenu()">
+            <img src="./style/img/btnMenu.png" alt="btnMenu">
+            <ul class="mobileNav" id="menu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#banner">ABOUT</a></li>
+                <li><a href="#ourServices">SERVICES</a></li>
+                <li><a href="#ourWorks">WORK</a></li>
+                <li><a href="#teamMembers">TEAM</a></li>
+                <li><a href="#teamMembers">PRICING</a></li>
+                <li><a href="#contactUs">CONTACT</a></li>
+                <li><a href="#footer">BLOG</a></li>
+            </ul>
+        </button>
     </div>
     <div id="banner">
         <div>
@@ -413,5 +426,14 @@
             </div>
         </div>
     </div>
+    <script>
+        const mobileMenu = document.getElementById('menu');
+        mobileMenu.style.display = 'none';
+        const toggleMenu = () => {
+            if(mobileMenu.style.display === 'none') mobileMenu.style.display = "block"
+            else mobileMenu.style.display = 'none'
+        }
+
+    </script>
 </body>
 </html>

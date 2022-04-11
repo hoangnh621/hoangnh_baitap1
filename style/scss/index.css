@@ -348,7 +348,7 @@ template {
           justify-content: space-evenly;
 }
 
-#header .menu {
+#header .btnShowMenu {
   display: none;
 }
 
@@ -368,7 +368,11 @@ template {
   display: none;
 }
 
-#header ul {
+#header .mobileNav {
+  display: none;
+}
+
+#header .screenNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -377,11 +381,11 @@ template {
   margin: 0;
 }
 
-#header ul li:hover {
+#header .screenNav li:hover {
   background-color: #e7e7e7;
 }
 
-#header ul li a {
+#header .screenNav li a {
   display: inline-block;
   line-height: 81px;
   padding: 0 11px;
@@ -403,15 +407,39 @@ template {
   #header .mobileLogo {
     display: inline-block;
   }
-  #header ul {
+  #header .screenNav {
     display: none;
   }
-  #header .menu {
+  #header .btnShowMenu {
     display: block;
     cursor: pointer;
     border: none;
     background: #fff;
     padding: 0;
+  }
+  #header .mobileNav {
+    display: block;
+    position: absolute;
+    top: 137px;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: #fff;
+  }
+  #header .mobileNav li:hover {
+    background-color: #e7e7e7;
+  }
+  #header .mobileNav li a {
+    width: 100%;
+    display: inline-block;
+    line-height: 81px;
+    padding: 0 0 0 52px;
+    font-size: 28px;
+    color: #363636;
+    text-decoration: none;
+    text-align: left;
   }
 }
 
